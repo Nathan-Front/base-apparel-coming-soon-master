@@ -82,6 +82,10 @@ form>input{
     border-radius: 30px;
     border: .5px solid gray;
     text-indent: 5%;
+    background: linear-gradient(hsl(0, 0%, 100%),hsl(0, 100%, 98%));
+}
+form>input:focus{
+    outline: none;
 }
 ::placeholder{
     color: var(--desaturated-red);
@@ -110,12 +114,12 @@ button{
     border: none;
     position: absolute;
     right: 0;
-    background: var(--soft-red);
+    background: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%));
 }
 button:hover{
     cursor: pointer;
     box-shadow: 0 10px 10px var(--desaturated-red);
-    background: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    background: var(--soft-red);
 }
 form>button>img{
     margin: 0;
